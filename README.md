@@ -7,5 +7,6 @@ ionic 基础框架，测试和使用开发中和现存的扩展。
 - [ ] 集成官方自带APP自动更新
 - [ ] 支付相关（支付宝，微信支付，卡包...）
 - [ ] 社交媒体相关（登录，注册...）
-# 开发者
+
+# 贡献者
 [贡献者](https://github.com/qintengfei/ionic-seeds/graphs/contributors)
