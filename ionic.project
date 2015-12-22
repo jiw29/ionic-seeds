@@ -1,4 +1,12 @@
 {
   "name": "ionic-seeds",
-  "app_id": ""
+  "app_id": "94780e3a",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }

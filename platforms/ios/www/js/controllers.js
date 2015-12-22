@@ -19,6 +19,10 @@ angular.module('starter.controllers', [])
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
+  $ionicAnalytics.track('ChatDetail', {
+    item_id: 'ChatDetail',
+    item_name: 'roll in'
+  });
 })
 
 .controller('AccountCtrl', function($scope) {
