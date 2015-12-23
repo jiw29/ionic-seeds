@@ -35,6 +35,10 @@
                         {
                             "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"IonicKeyboard\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"IonicDeploy\"><param name=\"ios-package\" onload=\"true\" value=\"IonicDeploy\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -69,6 +73,9 @@
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "ionic-plugin-deploy": {
+            "PACKAGE_NAME": "com.ionicframework.ionicseeds679147"
         }
     },
     "dependent_plugins": {}
